@@ -28,6 +28,27 @@ public class Import_to_Git {
                     (use "git restore --staged <file>..." to unstage)
                      modified:   Demo.java
                      new file:   Import_to_Git.java
+
+        Step 5:  git commit -m("FIle is added") ===> use this command-("file is added")is message,you can use any text over there
+        o/p: 
+             PS D:\Git_learning\desktop-tutorial> git commit -m("File is added")
+             [main d76ed7b] File is added
+             2 files changed, 51 insertions(+)
+             create mode 100644 Import_to_Git.java
+        Step 6:  git push origin main
+        o/p:  
+                 PS D:\Git_learning\desktop-tutorial> git push origin main          
+                 info: please complete authentication in your browser...
+                 Enumerating objects: 6, done.
+                 Counting objects: 100% (6/6), done.
+                 Delta compression using up to 12 threads
+                Compressing objects: 100% (4/4), done.
+                Writing objects: 100% (4/4), 1.41 KiB | 480.00 KiB/s, done.
+                Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+                To https://github.com/Aswinmayak/desktop-tutorial.git
+                 60dc186..d76ed7b  main -> main
+
+
            */
     }
 }
