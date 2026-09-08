@@ -1,0 +1,17 @@
+You are created new file in git.You needed it locally in vscode.To update this changes locally 
+use command: git pull origin main
+//
+If you already cloned the GitHub repository into your computer and opened that folder in VS Code, you don't need to clone it again.
+
+You have two situations:
+
+If the new file was created directly on GitHub
+Your local VS Code folder doesn't automatically get the new file. You need to pull the latest changes from GitHub.
+
+In your VS Code terminal, make sure you're inside:
+D:\Git_learning\desktop-tutorial
+Then run:
+=>git pull origin main
+This means:
+Download the latest changes from GitHub's main branch and update my local repository.
+After that, check your VS Code Explorer. The newly created file should appear.
