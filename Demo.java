@@ -1,5 +1,23 @@
 public class Demo{
   public static void main(String[] args){
     System.out.println("demo");
+    /*
+     
+    To import the files available in repository of git to VSCode(Available locally)
+    Step 1: Create a new folder where you want all those files(I created Git_learning folder in D drive )
+    Step 2: Go to the repository you need to export to VSCode
+    Step 3: Click "Code" option
+    Step 4: Copy the https link(ex: https://github.com/Aswinmayak/desktop-tutorial.git)
+    Step 5:Then in VS code open the new folder(Git_learning)
+    Step 6: Open new terminal.In terminal enter the command "git clone https://github.com/Aswinmayak/desktop-tutorial.git"
+    o/p:  PS D:\Git_learning> git clone https://github.com/Aswinmayak/desktop-tutorial.git
+    Cloning into 'desktop-tutorial'...
+    remote: Enumerating objects: 9, done.
+    remote: Counting objects: 100% (9/9), done.
+    remote: Compressing objects: 100% (7/7), done.
+    remote: Total 9 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+    Receiving objects: 100% (9/9), done.
+    //All files in repositories are available locally in the folder Git_learning
+    */
   }
 }
