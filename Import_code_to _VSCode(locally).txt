@@ -1,7 +1,4 @@
-public class Demo{
-  public static void main(String[] args){
-    System.out.println("demo");
-    /*
+
      
     To import the files available in repository of git to VSCode(Available locally)
     Step 1: Create a new folder where you want all those files(I created Git_learning folder in D drive )
@@ -18,6 +15,5 @@ public class Demo{
     remote: Total 9 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
     Receiving objects: 100% (9/9), done.
     //All files in repositories are available locally in the folder Git_learning
-    */
-  }
-}
+   
+ 
