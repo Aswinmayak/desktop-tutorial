@@ -1,0 +1,11 @@
+To move locally available folder to a new repository in git
+Step 1: Create new repository in git
+Step 2: Open the folder path in a terminal
+Step 3: git init
+Step 4: git add .
+Step 5: git commit -m("Message")
+Step 6: git remote add origin https://github.com/Aswinmayak/TCS_Preparation.git
+Step 7: Check -> git  remote -v
+Step 8: git status ==> master
+Step 9: git branch -M main
+Step 10: git push -u origin main
